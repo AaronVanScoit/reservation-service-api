@@ -1,16 +1,16 @@
-package com.binarybrains;
+package org.binarybrains;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
-@Path("/hello")
-public class ExampleResource {
+@Path("/AvailableVehicles")
+public class SearchAvailableVehicles {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    public String hello() {
-        return "Hello from Quarkus REST";
+    public String sav() {
+        return "Chinga a tu madre pelon";
     }
 }
